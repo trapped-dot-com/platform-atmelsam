@@ -64,8 +64,8 @@
     "framework-arduino-samd-facts-engineering": {
       "type": "framework",
       "optional": true,
-      "owner": "facts-engineering",
-      "version": "https://github.com/facts-engineering/ArduinoCore-samd"
+      "owner": "trapped-dot-com",
+      "version": "https://github.com/trapped-dot-com/ArduinoCore-samd"
     },
     "framework-arduino-samd-seeed": {
       "type": "framework",
