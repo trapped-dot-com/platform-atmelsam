@@ -35,7 +35,7 @@
       ],
       "mcu": "samd51p20a",
       "usb_product": "P1AM-200",
-      "variant": "p1am200"
+      "variant": "P1AM-200"
     },
     "debug": {
         "jlink_device": "ATSAMD51P20",
