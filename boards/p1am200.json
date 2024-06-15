@@ -15,7 +15,7 @@
         "-DUSB_PID=0x4002",
         "-DUSBCON",
         "-DUSB_CONFIG_POWER=100",
-        "-DUSB_MANUFACTURER=FACTS Engineering LLC",
+        "-DUSB_MANUFACTURER='FACTS Engineering LLC'",
         "-DUSB_PRODUCT=P1AM-200"
       ],
       "f_cpu": "120000000L",
