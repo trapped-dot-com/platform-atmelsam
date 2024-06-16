@@ -11,12 +11,8 @@
         "-D__SAMD51__",
         "-D__FPU_PRESENT",
         "-DARM_MATH_CM4",
-        "-DUSB_VID=0x1354",
-        "-DUSB_PID=0x4002",
         "-DUSBCON",
-        "-DUSB_CONFIG_POWER=100",
-        "-DUSB_MANUFACTURER='FACTS Engineering LLC'",
-        "-DUSB_PRODUCT=P1AM-200"
+        "-DUSB_CONFIG_POWER=100"
       ],
       "f_cpu": "120000000L",
       "hwids": [

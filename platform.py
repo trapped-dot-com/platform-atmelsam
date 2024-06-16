@@ -79,11 +79,6 @@ class AtmelsamPlatform(PlatformBase):
             and board.get("build.mcu", "").startswith(("samd51", "same51"))
         ):
             self.packages["tool-bossac"]["version"] = "~1.10900.0"
-        if (
-            board.get("build.core", "") == "facts-engineering"
-            and "tool-bossac" in self.packages
-        ):
-            self.packages["tool-bossac"]["version"] = "~1.10700.190624"
         if "zephyr" in variables.get("pioframework", []):
             for p in self.packages:
                 if p in ("tool-cmake", "tool-dtc", "tool-ninja"):
